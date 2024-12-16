@@ -122,12 +122,12 @@
 .ul__li >    .section__input[type="text"] {
   width: 226px;
 }
-.section__button.section__button--delete .section__img {
+.section__button--delete .section__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.section__button.section__button--delete .section__img:hover {
+.section__button--delete .section__img:hover {
   transform: rotateZ(0);
 }
 
@@ -142,11 +142,11 @@
   display: none;
 }
 
-.ul__li.ul__li--edit-mode .section__input[type=text] {
+.ul__li--edit-mode .section__input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.ul__li.ul__li--edit-mode .section__label {
+.ul__li--edit-mode .section__label {
   display: none;
 }
